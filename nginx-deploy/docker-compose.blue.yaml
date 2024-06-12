@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  api:
+    image: koo4207/duckzill:bday-web
+
+    container_name: backoffice-bday-blue
+
+    ports:
+      - "8080:80"
+# docker-compose -p backoffice-bday-blue -f docker-compose.blue.yaml up -d
